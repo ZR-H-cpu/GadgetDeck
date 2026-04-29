@@ -7,7 +7,7 @@ fi
 
 wget -P GadgetDeck https://github.com/ZR-H-cpu/GadgetDeck/releases/download/TEST/GadgetDeckfixed.zip
 cd GadgetDeck
-unzip GadgetDeck.zip
+unzip GadgetDeckfixed.zip
 
 su $SUDO_USER -c make
 make install
